@@ -1,0 +1,38 @@
+.costumers {
+  padding: $paddingVertical 0px;
+
+  &__heading {
+    font-weight: $fontWeight2;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: $Color4;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+  }
+  &__list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  &__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 90px;
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    fill: #afb1b8;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  &__icon:hover,
+  &__icon:focus {
+    border: 1px solid $Color2;
+    border-radius: 4px;
+    fill: $Color2;
+  }
+}

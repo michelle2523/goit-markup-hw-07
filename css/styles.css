@@ -1,0 +1,28 @@
+html {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}
+.container {
+  width: 1200px;
+  margin: 0px auto;
+}
+/* index-section */
+/* modal-section */
+/* header-section */
+/* hero-section */
+/* work-section */
+/* images-section */
+/* team-section */
+/* costumers-section */
+/* footer-section */
+/* service-section */
+/* all-section */
+* {
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  margin-block-start: 0px;
+  margin-inline-end: 0px;
+}

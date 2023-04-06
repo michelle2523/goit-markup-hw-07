@@ -1,0 +1,119 @@
+.footer-section {
+  background: #2f303a;
+
+  &__items {
+    display: flex;
+    flex-direction: row;
+  }
+  &__information {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 60px 0px;
+  }
+}
+.header__logo--color {
+  color: $Color1;
+  padding-left: 40px;
+}
+.contact--list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.contact__adress {
+  font-style: normal;
+  letter-spacing: 0.03em;
+  color: $Color1;
+}
+.contact--list li a {
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.contact__item--footer:hover,
+.contact__item--footer:hover {
+  color: $Color2;
+}
+.social-media {
+  display: flex;
+  flex-direction: column;
+  padding: 70px 0px 95px 95px;
+}
+.social-media__heading {
+  font-weight: $fontWeight2;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: $Color1;
+}
+.social--footer {
+  padding: 20px 0px;
+}
+.social__icon--footer {
+  fill: $Color1;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  padding: 70px 0px 95px 95px;
+  gap: 20px;
+
+  &__heading {
+    font-weight: $fontWeight2;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $Color1;
+  }
+  &__form {
+    display: flex;
+    gap: 10px;
+  }
+  &__form input {
+    box-sizing: border-box;
+    width: 358px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background: #2f303a;
+    color: $Color1;
+    display: flex;
+    padding: 15px;
+  }
+  &__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 25px;
+    width: 200px;
+    height: 50px;
+    font-weight: $fontWeight2;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    color: $Color1;
+    fill: $Color1;
+    background: $Color2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: none;
+  }
+  &__icon {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding-right: 30px;
+  }
+  &__icon svg {
+    position: absolute;
+  }
+}
